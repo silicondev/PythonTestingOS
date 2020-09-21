@@ -1,5 +1,6 @@
 from calculator import Calculator
 from loopTest import LoopTest
+from nameMachine import NameWriter
 
 class OperatingSystem(object):
 
@@ -31,7 +32,8 @@ class OperatingSystem(object):
         self.isShutdown = False
         self.programs = {
             "Calculator": Calculator(),
-            "LoopTest": LoopTest()
+            "LoopTest": LoopTest(),
+            "NameWriter": NameWriter()
         }
         return
 

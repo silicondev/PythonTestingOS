@@ -1,5 +1,3 @@
-import sys
-
 class LoopTest:
 
     def __init__(self, maxInt, maxSqr): # Added option to add these numbers on init
